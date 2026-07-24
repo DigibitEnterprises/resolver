@@ -1,0 +1,41 @@
+{
+    "name": "digibit/resolver",
+    "description": "Priority-ordered, lazily-constructed class-based resolver registry.",
+    "type": "library",
+    "keywords": [
+        "resolver",
+        "dispatcher",
+        "registry",
+        "priority",
+        "chain-of-responsibility",
+        "lazy-instantiation"
+    ],
+    "homepage": "https://github.com/DigibitEnterprises/resolver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Lofthouse",
+            "email": "digibitenterprises@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DigibitEnterprises/resolver/issues",
+        "source": "https://github.com/DigibitEnterprises/resolver"
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Digibit\\Resolver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Digibit\\Resolver\\Tests\\": "tests/"
+        }
+    }
+}
